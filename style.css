@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    font-family: cursive;
+}
+
+.pimg-1, .pimg-2, .pimg-3{
+    background-image: url(./img/WallpaperDog-10809044.jpg);
+    min-height: 100vh;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   background-attachment: fixed;
+  
+}
+.text-1, .text-2, .text-3{
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    min-width: 100%;
+    text-align: center;
+}
+.textbg, .textbg-2, .textbg-3{
+    background-color:grey;
+    letter-spacing: 8px;
+    padding: 20px;
+}
+.para-1, .para-2, .para-3{
+    text-align: center;
+    
+}
+h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: 400;
+}
+p{
+    font-size:1rem;
+    text-align: justify;
+   padding: 20px 60px;
+}
+.pimg-2{
+    background-image: url(./img/WallpaperDog-10809047.jpg);
+   min-height: 500px;
+}
+.pimg-3{
+    background-image: url(./img/WallpaperDog-5526919.jpg);
+    min-height: 500px;
+}
+
